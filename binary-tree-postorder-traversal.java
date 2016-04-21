@@ -127,7 +127,7 @@ public List<Integer> postorderTraversal(TreeNode root) {
         else {
             if(temp.right!=null) {             //右节点
                 stack.push(temp.right);
-                temp.right = null;   //标记已被轮训过得
+                temp.right = null;   //标记已被轮询的
             }
  
             if(temp.left!=null) {                  //左节点
